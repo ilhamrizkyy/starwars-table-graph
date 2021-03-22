@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import TableContent from './components/TableContent';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <div className = 'app-container'>
+                <div className = 'content-title'>Starwars Table and Graph</div>
+                <div className = 'content-subtitle'>Data fetched from https://swapi.dev/</div>
+                <Switch>
+                    <Route exact path = '/'><TableContent /></Route>
+                </Switch>
+            </div>
+        </Router>
+    )
 }
 
-export default App;
+export default App
