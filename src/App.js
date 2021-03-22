@@ -10,7 +10,7 @@ function App() {
                 <div className = 'content-title'>Starwars Table and Graph</div>
                 <div className = 'content-subtitle'>Data fetched from https://swapi.dev/</div>
                 <Switch>
-                    <Route exact path = '/'><TableContent /></Route>
+                  <Route exact path = '/'><TableContent></TableContent></Route>
                 </Switch>
             </div>
         </Router>
