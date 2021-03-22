@@ -17,7 +17,7 @@ const Table = () => {
                 let response = await axios.get(`https://swapi.dev/api/people/?page=${pageIndex+1}`)
                 setPeopleList(response.data.results)
                 let count = response.data.count
-                pagesize = 10
+                var pagesize = 10
                 let controlledPageCount = Math.ceil(count/ pagesize)
                 setPageCount(controlledPageCount)
                 setIsLoading(false)
