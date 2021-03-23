@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import TableContent from './components/TableContent'
 import TableWrapper from './components/TableWrapper';
-import TableAndGraph from './components/Table';
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         <div className='content-title'>React Starwars Table</div>
         <div className='content-subtitle'>Powered By Swapi API https://swapi.dev/</div>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/starwars-table-graph'>
             <TableContent />
           </Route>
           <TableWrapper />

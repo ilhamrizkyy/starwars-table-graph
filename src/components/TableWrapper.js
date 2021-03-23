@@ -7,7 +7,7 @@ import './TableWrapper.css';
 const TableWrapper = () => {
     const history = useHistory()
     const handleBack = () => {
-        history.push('/')
+        history.push('/starwars-table-graph/')
     }
     
     return (
@@ -18,7 +18,7 @@ const TableWrapper = () => {
                 </button>
             </div>      
             <Switch>
-                <Route exact path = '/table'><TableAndGraph></TableAndGraph></Route>
+                <Route exact path = '/starwars-table-graph/table'><TableAndGraph></TableAndGraph></Route>
             </Switch>
         </>
     )
