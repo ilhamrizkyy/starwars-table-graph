@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/starwars-table-graph/static/css/main.fad8c0b0.chunk.css",
-    "main.js": "/starwars-table-graph/static/js/main.273b3306.chunk.js",
-    "main.js.map": "/starwars-table-graph/static/js/main.273b3306.chunk.js.map",
+    "main.js": "/starwars-table-graph/static/js/main.6809c240.chunk.js",
+    "main.js.map": "/starwars-table-graph/static/js/main.6809c240.chunk.js.map",
     "runtime-main.js": "/starwars-table-graph/static/js/runtime-main.bd172367.js",
     "runtime-main.js.map": "/starwars-table-graph/static/js/runtime-main.bd172367.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/starwars-table-graph/static/css/2.4c97ca4f.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.4f76bfe6.chunk.js",
     "static/css/main.fad8c0b0.chunk.css",
-    "static/js/main.273b3306.chunk.js"
+    "static/js/main.6809c240.chunk.js"
   ]
 }
