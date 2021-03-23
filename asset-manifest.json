@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/starwars-table-graph/static/css/main.fad8c0b0.chunk.css",
+    "main.js": "/starwars-table-graph/static/js/main.273b3306.chunk.js",
+    "main.js.map": "/starwars-table-graph/static/js/main.273b3306.chunk.js.map",
+    "runtime-main.js": "/starwars-table-graph/static/js/runtime-main.bd172367.js",
+    "runtime-main.js.map": "/starwars-table-graph/static/js/runtime-main.bd172367.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/starwars-table-graph/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.4f76bfe6.chunk.js": "/starwars-table-graph/static/js/2.4f76bfe6.chunk.js",
+    "static/js/2.4f76bfe6.chunk.js.map": "/starwars-table-graph/static/js/2.4f76bfe6.chunk.js.map",
+    "static/js/3.c1cb89cf.chunk.js": "/starwars-table-graph/static/js/3.c1cb89cf.chunk.js",
+    "static/js/3.c1cb89cf.chunk.js.map": "/starwars-table-graph/static/js/3.c1cb89cf.chunk.js.map",
+    "index.html": "/starwars-table-graph/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/starwars-table-graph/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.fad8c0b0.chunk.css.map": "/starwars-table-graph/static/css/main.fad8c0b0.chunk.css.map",
+    "static/js/2.4f76bfe6.chunk.js.LICENSE.txt": "/starwars-table-graph/static/js/2.4f76bfe6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd172367.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.4f76bfe6.chunk.js",
+    "static/css/main.fad8c0b0.chunk.css",
+    "static/js/main.273b3306.chunk.js"
+  ]
+}
