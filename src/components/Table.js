@@ -16,10 +16,11 @@ const Table = () => {
                 setIsLoading(true)
                 let response = await axios.get(`https://swapi.dev/api/people/?page=${pageIndex+1}`)
                 setPeopleList(response.data.results)
+                localStorage.setItem('data', JSON.stringify(response))
                 let count = response.data.count
                 var pagesize = 10
-                let controlledPageCount = Math.ceil(count/ pagesize)
-                setPageCount(controlledPageCount)
+                let pageCount = Math.ceil(count/ pagesize)
+                setPageCount(pageCount)
                 setIsLoading(false)
             } catch (err) {
                 console.log('Error:', err)
