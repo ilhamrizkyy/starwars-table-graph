@@ -7,8 +7,7 @@ import './TableContent.css';
 const TableContent = () => {
     return (
         <div className = 'content-button'>
-            <NavLink to = '/table'><Button variant="outline-warning">Starwars Table</Button></NavLink>
-            <NavLink to = '/graph'><Button variant="outline-warning">Starwars Graph</Button></NavLink>
+            <NavLink to = '/table'><Button variant="outline-warning"> Show Starwars Table and Graph</Button></NavLink>
         </div>
     )
 }

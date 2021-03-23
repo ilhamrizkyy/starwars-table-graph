@@ -1,8 +1,8 @@
-import React from 'react'
-import { Route, useHistory, Switch } from 'react-router-dom'
+import React from 'react';
+import { Route, useHistory, Switch } from 'react-router-dom';
 
-import Table from './Table'
-import './TableWrapper.css'
+import TableAndGraph from './Table';
+import './TableWrapper.css';
 
 const TableWrapper = () => {
     const history = useHistory()
@@ -18,7 +18,7 @@ const TableWrapper = () => {
                 </button>
             </div>      
             <Switch>
-                <Route exact path = '/table'><Table></Table></Route>
+                <Route exact path = '/table'><TableAndGraph></TableAndGraph></Route>
             </Switch>
         </>
     )

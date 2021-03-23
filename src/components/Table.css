@@ -32,3 +32,11 @@ table > tbody > tr {
 .pagination > button:disabled {
     cursor: not-allowed;
 }
+
+.content-wrapper{
+    width: 100%;
+}
+
+.chart-wrapper{
+    background-color: white;
+}
